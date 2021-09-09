@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./SearchBar.css"
-
+import "bootstrap/dist/css/bootstrap.min.css"
 export default function SearchBar({onSearch}) {
   const [city, setCity] = useState("");
   return (

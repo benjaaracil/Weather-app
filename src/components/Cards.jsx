@@ -1,5 +1,6 @@
 import React from 'react';
 import './Cards.css';
+import "bootstrap/dist/css/bootstrap.min.css"
 
 import Card from './Card.jsx';
 

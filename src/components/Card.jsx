@@ -1,6 +1,7 @@
 import React from 'react';
 import './Card.css';
 import {Link} from 'react-router-dom';
+import "bootstrap/dist/css/bootstrap.min.css"
 
 export default function Card ({min, max, name, img, onClose, id}) {
     return (

@@ -1,0 +1,36 @@
+.card {
+  margin: 20px;
+  width: 18rem;
+  border: rgb(32, 36, 34);
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.363);
+}
+
+.card-title {
+  margin-bottom: 15px;
+  font-size: medium;
+  font-style: italic;
+  color: black;
+  
+}
+
+
+#closeIcon {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 8px;
+  margin-top: 8px;
+}
+
+.card-body {
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+}
+
+.button{
+  color: wheat;
+  background-color: rgb(39, 113, 211);
+}
+.button:hover{
+  background-color: rgba(19, 123, 255);
+}

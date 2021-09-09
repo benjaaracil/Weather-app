@@ -1,0 +1,18 @@
+.ciudad{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+
+}
+.ciudadCard{
+    width: 18rem;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    margin-left: 43%;
+    border: rgb(32, 36, 34);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.363);
+}

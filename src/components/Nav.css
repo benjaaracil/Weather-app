@@ -7,8 +7,8 @@
 .About{
   font-family: 'Glory', sans-serif;
   color: rgba(19, 123, 255);
-  position: absolute;
-  margin-left: 210px;
+  position: absolute; 
+  margin-left: 200px; 
 }
 .logo {
   right: 50px;

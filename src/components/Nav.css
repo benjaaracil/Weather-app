@@ -1,13 +1,14 @@
 .WeatherApp{
-  font-family: italic;
-  font-size: 50px;
+  font-family: 'Glory', sans-serif;
+  font-size: 60px;
   margin-right: 10px;
   color: rgba(19, 123, 255);
-  text-decoration: none;
 }
 .About{
-  font-family: italic;
+  font-family: 'Glory', sans-serif;
   color: rgba(19, 123, 255);
+  position: absolute;
+  margin-left: 210px;
 }
 .logo {
   right: 50px;

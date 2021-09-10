@@ -9,9 +9,8 @@
 .card-title {
   margin-bottom: 15px;
   font-size: medium;
-  font-style: italic;
+  font-family: 'Glory', sans-serif;
   color: black;
-  
 }
 
 
@@ -30,6 +29,7 @@
 .button{
   color: wheat;
   background-color: rgb(39, 113, 211);
+  width: 30px;
 }
 .button:hover{
   background-color: rgba(19, 123, 255);

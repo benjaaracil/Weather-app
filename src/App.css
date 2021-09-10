@@ -7,4 +7,6 @@
   text-align: center;
   background-image: url(https://fondosmil.com/fondo/61435.jpg);
   background-position: center;
+  background-attachment: fixed;
+  overflow: scroll;
 }

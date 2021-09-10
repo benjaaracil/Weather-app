@@ -9,10 +9,10 @@ function Nav({onSearch}) {
   return (
     <nav>
         <Link to='/'>
-          <span className = "WeatherApp">
+          <div className = "WeatherApp">
             <img id= "logoHenry" src={Logo} className="logo" alt="" />
-          Weather Home
-          </span>
+            <span>Weather Home</span>
+          </div>
         </Link>
         <Link to='/about'>
         <span className="About">About</span>

@@ -6,8 +6,8 @@ import "bootstrap/dist/css/bootstrap.min.css"
 export default function Card ({min, max, name, img, onClose, id}) {
     return (
       <div className="card">
-        <div id="closeIcon" className="row">
-            <button onClick={onClose} className="button">X</button>
+        <div id="closeIcon">
+        <button onClick={onClose} className="button">X</button>
         </div>
         <div className="card-body">
           <Link to={`/ciudad/${id}`} >

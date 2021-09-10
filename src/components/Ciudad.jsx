@@ -4,8 +4,8 @@ import "./Ciudad.css"
 export default function Ciudad({city}) {
    if (city){
     return (
-        <div className="ciudad">
-                <div className="ciudadCard">
+        <div>
+            <div className="ciudadCard">
                     <h2>{city.name}</h2>
                     <div>
                         <div>Temperature: {city.temp} ºC</div>

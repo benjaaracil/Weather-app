@@ -1,4 +1,12 @@
-# Getting Started with Create React App
+# My First Weather App (Without Redux)
+
+Hi everyone! This is my first project in [SoyHenry](https://www.soyhenry.com/). This WeatherApp was made with React. I also used Bootstrap framework for some elements. It took me 3 days to done it while i was learning another things.
+
+Hola a todos! Este es mi primer proyecto realizado en [SoyHenry](https://www.soyhenry.com/), se trata de una WeatherApp hecha con React. También he utilizado Bootstrap para algunos elementos. Me tomó 3 días hacerla mientras aprendía otras cosas. 
+
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

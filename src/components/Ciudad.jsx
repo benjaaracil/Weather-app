@@ -6,7 +6,7 @@ export default function Ciudad({city}) {
     return (
         <div>
             <div className="ciudadCard">
-                    <h2>{city.name}</h2>
+                    <h2 className = "titulo">{city.name}</h2>
                     <div>
                         <div>Temperature: {city.temp} ºC</div>
                         <div>Weather: {city.weather}</div>

@@ -10,7 +10,7 @@ export default function Card ({min, max, name, img, onClose, id}) {
         <button onClick={onClose} className="button">X</button>
         </div>
         <div className="card-body">
-          <Link to={`/ciudad/${id}`} >
+          <Link style={{textDecoration: "none"}} to={`/ciudad/${id}`} >
             <h5 className="card-title">{name}</h5>
           </Link>
           <div className="row">

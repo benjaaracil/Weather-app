@@ -4,13 +4,17 @@
   border: rgb(32, 36, 34);
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.363);
+  transition:all .7s ease-in-out;
+}
+.card:hover {
+  -webkit-transform:scale(0.5);transform:scale(1.1);
 }
 
 .card-title {
   margin-bottom: 15px;
   font-family: 'Glory', sans-serif;
   color: black;
-  font-size: 20px;
+  font-size: 25px;
   text-decoration: none !important;
 }
 .card-title:hover {
@@ -28,12 +32,15 @@
 .card-body {
   margin-top: 0px !important;
   padding-top: 0px !important;
+  color: black;
+  font-weight: 500;
 }
 
 .button{
   color: wheat;
   background-color: rgb(39, 113, 211);
-  width: 30px;
+  width: 25px;
+  border-radius: 3px;
 }
 .button:hover{
   background-color: rgba(19, 123, 255);

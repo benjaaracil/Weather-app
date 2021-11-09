@@ -8,7 +8,7 @@ import Logo from '../img/logoHenry.png'
 function Nav({onSearch}) {
   return (
     <nav>
-        <Link to='/'>
+        <Link className = "link" to='/'>
           <div className = "WeatherApp">
             <img id= "logoHenry" src={Logo} className="logo" alt="" />
             <span>Weather Home</span>

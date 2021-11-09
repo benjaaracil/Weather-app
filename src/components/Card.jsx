@@ -9,10 +9,9 @@ export default function Card ({min, max, name, img, onClose, id}) {
         <div id="closeIcon">
         <button onClick={onClose} className="button">X</button>
         </div>
+        <Link style={{textDecoration: "none"}} to={`/ciudad/${id}`} >
         <div className="card-body">
-          <Link style={{textDecoration: "none"}} to={`/ciudad/${id}`} >
             <h5 className="card-title">{name}</h5>
-          </Link>
           <div className="row">
             <div className="col-sm-4 col-md-4 col-lg-4">
               <p>Min</p>
@@ -27,6 +26,7 @@ export default function Card ({min, max, name, img, onClose, id}) {
             </div>
           </div>
         </div>
+        </Link>
       </div>
     );
 };

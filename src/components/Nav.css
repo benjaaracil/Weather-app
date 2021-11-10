@@ -3,6 +3,10 @@
   font-size: 60px;
   margin-right: 10px;
   color: RGB(20, 123 , 254);
+  transition:all .5s ease-in-out;
+}
+.WeatherApp:hover{
+  color:rgba(0, 140, 255, 0.699);
 }
 .About{
   font-family: 'Glory', sans-serif;

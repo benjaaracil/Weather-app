@@ -37,11 +37,13 @@
 }
 
 .button{
-  color: wheat;
-  background-color: rgb(39, 113, 211);
+  color: rgb(39, 113, 211);
+  background-color: transparent;
+  border-color: transparent;
   width: 25px;
   border-radius: 3px;
+  font-weight: 600;
 }
 .button:hover{
-  background-color: rgba(19, 123, 255);
+  color: black;
 }

@@ -8,7 +8,7 @@
 .about{
     color: rgba(19, 123, 255);
     margin-right: 5%;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.76);
     font-family: 'Glory', sans-serif;
     font-size: large;
 }
